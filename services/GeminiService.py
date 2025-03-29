@@ -16,7 +16,7 @@ class GeminiService:
     def __init__(self):
         self.llm = ChatGoogleGenerativeAI(
             temperature=0,
-            model="gemini-pro",
+            model="gemini-1.5-pro",
             convert_system_message_to_human=True,
             google_api_key=GOOGLE_API_KEY
         )
